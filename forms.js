@@ -16,7 +16,7 @@ $(document).ready(function() {
         values[element.name] = element.value;
       });
 
-      console.log(values);
+      console.log(fields);
 
       // clear out inputs
       $('#employeeinfo').find('input[type=text]').val('');
